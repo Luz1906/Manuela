@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro + Login Accesible</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>🧩 Ejemplo Práctico: Registro + Login Accesible</h1>
+
+    <!-- Formulario de Registro -->
+    <section class="form-section">
+    <h2>📝 Registro</h2>
+    <form id="registroForm">
+    <label for="nombre">👤 Nombre completo</label>
+    <input type="text" id="nombre" required>
+
+    <label for="email">📧 Correo electrónico</label>
+    <input type="email" id="email" required>
+
+    <label for="password">🔒 Contraseña</label>
+    <input type="password" id="password" required>
+
+    <button type="submit">✅ Registrarse</button>
+
+    <div id="registroMensaje"></div>
+    </form>
+    </section>
+
+    <!-- Formulario de Login -->
+    <section class="form-section">
+    <h2>🔐 Login</h2>
+    <form id="loginForm">
+    <label for="loginEmail">📧 Correo electrónico</label>
+    <input type="email" id="loginEmail" required>
+
+    <label for="loginPassword">🔑 Contraseña</label>
+    <input type="password" id="loginPassword" required>
+
+    <button type="submit">🔵 Ingresar</button>
+
+    <div id="loginMensaje"></div>
+    </form>
+    </section>
+
+    <script src="app.js"></script>
+    <footer>
+    <p>© 2025 Registro + Login Accesible | Castañeda Espinoza Luz de Maria</p>
+</footer>
+</body>
+
+</html>
